@@ -1,2 +1,11 @@
 # MarketBasketAnalysis
-Market Basket Analysis Project for ML 4102 - Data Literacy @ Uni Tuebingen
+
+The Apriori Algorithm is a popular algorithm used in Market Basket Analysis to identify frequent itemsets and association rules. The algorithm works by scanning the dataset multiple times to identify frequent itemsets that meet a user-specified minimum support threshold. The support of an itemset is defined as the proportion of transactions that contain all the items in the itemset. Once frequent itemsets have been identified, the algorithm then generates association rules that specify the likelihood of one item being purchased given the purchase of another item.
+
+In order to apply the Apriori Algorithm to a Kaggle dataset, we first need to preprocess the data and transform it into a format suitable for analysis. This usually involves converting the data into a transactional format, where each row represents a unique transaction and each column represents a unique item. Once we have our data in this format, we can use the Apriori Algorithm to identify frequent itemsets and association rules that meet our desired minimum support and confidence thresholds.
+
+One of the benefits of using the Apriori Algorithm is that it is relatively efficient, even for large datasets. This is because the algorithm uses a "bottom-up" approach to generate candidate itemsets, starting with individual items and gradually increasing the size of the itemsets. This means that the algorithm only needs to scan the dataset a few times, rather than scanning it exhaustively.
+
+Another advantage of the Apriori Algorithm is that it is widely used and has been implemented in many programming languages and libraries, including Python's MLxtend library and R's arules package. This means that it is easy to apply the algorithm to Kaggle datasets using these tools, without the need for complex coding or implementation.
+
+In conclusion, the Apriori Algorithm is a powerful tool that can be used in Market Basket Analysis to identify frequent itemsets and association rules. By using this algorithm on Kaggle datasets, businesses can gain valuable insights into customer purchasing behavior and optimize their strategies based on these insights. With its efficiency and wide availability in popular programming libraries, the Apriori Algorithm is a great option for businesses looking to perform Market Basket Analysis on their datasets.
